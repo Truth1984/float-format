@@ -1,0 +1,23 @@
+{
+  "name": "float-format",
+  "version": "1.0.0",
+  "description": "float number formatter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truth1984/float-format.git"
+  },
+  "keywords": [
+    "float",
+    "format"
+  ],
+  "author": "Awada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Truth1984/float-format/issues"
+  },
+  "homepage": "https://github.com/Truth1984/float-format#readme"
+}
