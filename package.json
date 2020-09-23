@@ -1,6 +1,6 @@
 {
   "name": "float-format",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "float number formatter, and comparer",
   "main": "index.js",
   "scripts": {

@@ -19,10 +19,10 @@ let op = (number) => {
  */
 op.compare = (float1, float2, nearest) => {
   if (nearest == undefined) {
-    let percision1 = float1.toString().split(".")[1] == undefined ? 0 : float1.toString().split(".")[1].length;
-    let percision2 = float2.toString().split(".")[1] == undefined ? 0 : float2.toString().split(".")[1].length;
-    let targetPercision = Math.min(percision1, percision2);
-    return float1.toFixed(targetPercision) === float2.toFixed(targetPercision);
+    let precision1 = float1.toString().split(".")[1] == undefined ? 0 : float1.toString().split(".")[1].length;
+    let precision2 = float2.toString().split(".")[1] == undefined ? 0 : float2.toString().split(".")[1].length;
+    let targetprecision = Math.min(precision1, precision2);
+    return float1.toFixed(targetprecision) === float2.toFixed(targetprecision);
   }
   return float1.toFixed(nearest) === float2.toFixed(nearest);
 };

@@ -9,7 +9,7 @@ format and compare float number in javascript
 if precision is undefined, then use the minimum precision of float1 and float2,
 else use given precision to compare two numbers
 
-example
+### example
 
 ```js
 const ff = require("float-format");
