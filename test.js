@@ -9,4 +9,8 @@ if (ff(20 / Math.pow(10, 20)) != 20 / Math.pow(10, 20)) console.log("test failed
 if (ff(0.00015625) != 2 / 12800) console.log("test failed 7");
 if (ff(2 / 12800) != 2 / 12800) console.log("test failed 8");
 
+if (ff.compare(3.546, 3.54)) console.log("test failed 9");
+if (!ff.compare(4.222, 4, 0)) console.log("test failed 10");
+if (ff.compare(4.222, 4, 2)) console.log("test failed 11");
+
 console.log("test complete");
